@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+
+}
+
+header {
+    background-color: red;
+    padding: 10px;
+}
+
+.headerTitle {
+    text-align: center;
+}
+
+.headerSub {
+    text-align: center;
+}
+
+.headerImage {
+    width: 200px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.navigationBar {
+    width: 100%;
+    background-color: dimgrey;
+}
+
+.navigationBar li {
+    border: 2px solid black;
+    line-height: 5vh;
+}
+.navigationBar a {
+    text-decoration: none;
+    color: beige;
+}
+
+.colum {
+width: 100%;
+color: black;
+text-align: center; 
+}
+
+.content{
+    margin-bottom: 15vh;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightsalmon
+}
+
+@media only screen and (min-width: 600px){
+    header {
+        height: 100vh;
+    }
+
+.headerTitle {
+display: inline-block;
+}
+
+.headerSub {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.headerImage {
+    height: 200px;
+    width: auto;
+    display: block;
+    float: right;
+}
+
+.navigationBar {
+    text-align: left;
+}
+
+.navigationBar li {
+    width: 140px;
+    display: inline-block;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.colum {
+    float: left;
+    width: 50%;
+    
+}
+
+}
