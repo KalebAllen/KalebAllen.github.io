@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: fantasy;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
 header {
-    background-color: red;
+    background-color: #AA0000;
     padding: 10px;
 }
 
@@ -24,12 +24,12 @@ header {
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
-    text-align: center;
+    align: center;
 }
 
 .navigationBar {
     width: 100%;
-    background-color: dimgrey;
+    background-color: #6F5060;
 }
 
 .navigationBar li {
@@ -56,7 +56,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lightsalmon
+    background-color: #539987;
 }
 
 @media only screen and (min-width: 600px){
