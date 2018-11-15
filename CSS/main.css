@@ -1,12 +1,14 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
 
 }
 
 header {
-    background-color: #AA0000;
-    padding: 10px;
+    background-color: #DB2B39;
+
+    width: 100%;
 }
 
 .headerTitle {
@@ -14,17 +16,17 @@ header {
 }
 
 .headerSub {
-    text-align: center;
+    text-align: right;
 }
 
 .headerImage {
     width: 200px;
-    height: 200px;
+    height: 20px;
     display: block;
     overflow: hidden;
     margin: 0 auto;
     padding: 0;
-    align: center;
+    text-align: center;
 }
 
 .navigationBar {
@@ -56,12 +58,12 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #539987;
+    background-color: #444B6E;
 }
 
 @media only screen and (min-width: 600px){
     header {
-        height: 100vh;
+        height: 25vh;
     }
 
 .headerTitle {
@@ -96,7 +98,7 @@ display: inline-block;
 .colum {
     float: left;
     width: 50%;
-    
+    background-color: #1F5673;
 }
 
 }
