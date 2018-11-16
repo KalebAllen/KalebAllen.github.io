@@ -23,7 +23,7 @@ header {
 }
 .navigationBar {
     width: 100%;
-    background-color: #6F5060;
+    background-color: #1BE7FF;
 }
 .navigationBar li {
     border: 2px solid black;
@@ -46,9 +46,9 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #444B6E;
+    background-color: #6EEB83;
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 500px){
     header {
         height: 25vh;
     }
