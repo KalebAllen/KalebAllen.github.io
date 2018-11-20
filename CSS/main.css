@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #DB2B39;
+    background-color: #570000;
 
     width: 100%;
 }
@@ -29,7 +29,7 @@ header {
 
 .navigationBar {
     width: 100%;
-    background-color: #6F5060;
+    background-color: #ADA8B6;
 }
 
 .navigationBar li {
@@ -56,7 +56,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #444B6E;
+    background-color: #FFEEDB;
 }
 
 /* Any CSS here will be applied when the screen size is 600px+ */
