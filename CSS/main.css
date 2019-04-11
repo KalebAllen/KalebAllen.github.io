@@ -1,13 +1,10 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    
-
 }
 
 header {
     background-color: #570000;
-
     width: 100%;
 }
 
@@ -82,7 +79,7 @@ display: inline-block;
 }
 
 .navigationBar {
-    text-align: left;
+    text-align: center;
 }
 
 .navigationBar li {
